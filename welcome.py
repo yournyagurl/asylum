@@ -59,7 +59,7 @@ async def on_member_join(member):
                 color=custom_color
             )
             embed_1.set_author(name=member.display_name, icon_url=member.avatar.url)
-            embed_1.set_image(url="https://media.discordapp.net/attachments/1207057097926115379/1261630682405277726/SOCIAL_5.gif?ex=6693a8a2&is=66925722&hm=e54f4c354e5731738432915716bef5bb412585f0140f467f769c37b3774d80b4&=")
+            embed_1.set_image(url="https://media.discordapp.net/attachments/1207057097926115379/1261989942058291200/b453cfc709277ebcfffdb0e051b5d892.gif?ex=6694f738&is=6693a5b8&hm=00d15a79928d36894d0a6798ce50b6c8810de95f989c4a632ed59a1c8c55c050&=")
             await channel_1.send(embed=embed_1)
 
     channel_id_2 = welcome_channels_2.get(member.guild.id)
