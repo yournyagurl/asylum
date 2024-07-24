@@ -2,12 +2,11 @@ import discord
 from discord.ext import commands
 import os
 from dotenv import load_dotenv
-
 # Load environment variables from .env file
 load_dotenv()
 
 # Retrieve the token from environment variables
-BOT_TOKEN = os.getenv('DISCORD_TOKEN_PLUM')
+BOT_TOKEN = os.getenv('TOKEN')
 
 # Custom color for embeds
 custom_color = discord.Color.from_rgb(171, 0, 0)
